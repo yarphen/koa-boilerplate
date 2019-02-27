@@ -1,0 +1,38 @@
+{
+  "name": "koa-mongoose-boilerplate",
+  "version": "0.0.1",
+  "description": "API service",
+  "main": "app.js",
+  "scripts": {
+    "forever": "forever app.js",
+    "start": "node app.js",
+    "lint": "eslint ."
+  },
+  "author": "yarphen",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^2.0.1",
+    "forever": "^0.15.3",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-json-error": "^3.1.2",
+    "koa-logger": "^3.2.0",
+    "koa-passport": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.16",
+    "nodemailer": "^4.6.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-mocha": "^5.1.0"
+  }
+}
