@@ -6,6 +6,7 @@
   "scripts": {
     "forever": "forever app.js",
     "start": "node app.js",
+    "admin-init": "node cli/admin-init",
     "lint": "eslint ."
   },
   "author": "yarphen",
