@@ -30,7 +30,7 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.2.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.13.0",
